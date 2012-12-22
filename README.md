@@ -1,4 +1,4 @@
-It is android cdp parser using usb to ethernet module
+It is android cdp parser using usb to ethernet module. 
 
 Fully tested on Samsung Galaxy Nexus, Android 4.1.2 (should work on any 4.0+ androids and devices with OTG support)
 
@@ -7,6 +7,7 @@ Also its a great example of running bash scripts from your device.
 Each file has a lot of description inside
 I searched a lot for this information.
 So check MainActivity.java
+
 
 
 
@@ -24,6 +25,10 @@ Instruction.
 3. activity_main.xml is from Test\res\layout
  running scripts is on "android:onClick=" property in Textview
 4. android:targetSdkVersion="15" android:minSdkVersion="9"
-
 5. place cdp.sh and eth.sh to /sdcard/
-6. compile - run - tap 2nd Textview to get info about ethernet - tap 4th Textview to get and parse CDP info
+6. Connect ethernet cable to your Adroid device
+7. Run application - tap 2nd Textview to get info about ethernet - tap 4th Textview to get and parse CDP info
+
+You can skip 1-4 just installing Test.apk on your phone
+
+Feel free to contact me with any qustions. me@bockra.org
