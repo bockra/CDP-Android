@@ -25,7 +25,7 @@ Instruction.
 3. activity_main.xml is from Test\res\layout
  running scripts is on "android:onClick=" property in Textview
 4. android:targetSdkVersion="15" android:minSdkVersion="9"
-5. place cdp.sh and eth.sh to /sdcard/
+5. place cdp.sh and eth.sh to /sdcard/ (dont forget to change scripts with your needs)
 6. Connect ethernet cable to your Adroid device
 7. Run application - tap 2nd Textview to get info about ethernet - tap 4th Textview to get and parse CDP info
 
